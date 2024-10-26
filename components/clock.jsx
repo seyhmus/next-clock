@@ -16,12 +16,25 @@ const AnalogClock = () => {
   const minutes = time.getMinutes();
   const seconds = time.getSeconds();
 
+  const styleHours = {
+    '--clr': '#ff2972',
+    transform: `rotate(${hours * 30 + minutes * 0.5}deg)`,
+  };
+  const styleMinutes = {
+    '--clr': '#fee800',
+    transform: `rotate(${minutes * 6 + seconds * 0.1}deg)`,
+  };
+  const styleSeconds = {
+    '--clr': '#04fc43',
+    transform: `rotate(${seconds * 6}deg)`,
+  };
+
   return (
     <div class="container">
       <div className="clock">
-        <div className="circle" style={{'--clr': '#04fc43', transform: `rotate(${seconds * 6}deg)`}}><i></i></div>
-        <div className="circle circle2" style={{'--clr': '#fee800', transform: `rotate(${minutes * 6 + seconds * 0.1}deg)`}}><i></i></div>
-        <div className="circle circle3" style={{'--clr': '#ff2972', transform: `rotate(${hours*30 + minutes * 0.5}deg)`}}><i></i></div>
+        <div className="circle" style={styleSeconds}><i></i></div>
+        <div className="circle circle2" style={styleMinutes}><i></i></div>
+        <div className="circle circle3" style={styleHours}><i></i></div>
 
         {Array.from({ length: 12 }, (_, i) => i + 1).map((h) => (
           <span key={h} style={{ '--i': h }}>
