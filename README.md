@@ -2,7 +2,7 @@
 [Vercel](https://next-clock-6v6f3mvzl-seyhmus1s-projects.vercel.app/)
 
 ## Credits
-The next js version is based on [this video](https://www.youtube.com/watch?v=yXFiTDfhSXo)
+This next js version is based on [this video](https://www.youtube.com/watch?v=yXFiTDfhSXo)
 
 ## Getting Started
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
