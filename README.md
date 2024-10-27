@@ -1,5 +1,10 @@
-## Preview on Vercel
-[Vercel](https://next-clock-6v6f3mvzl-seyhmus1s-projects.vercel.app/)
+## Beautilful Analog and Digital Clock
+
+https://github.com/user-attachments/assets/1bd8cfd2-f46f-42d9-804e-54e25f2d185c
+
+
+
+Preview at [Vercel](https://next-clock-6v6f3mvzl-seyhmus1s-projects.vercel.app/)
 
 ## Credits
 This next js version is based on [this video](https://www.youtube.com/watch?v=yXFiTDfhSXo)
