@@ -1,7 +1,5 @@
 ## Beautilful Analog and Digital Clock
-
-https://github.com/user-attachments/assets/1bd8cfd2-f46f-42d9-804e-54e25f2d185c
-
+![clock](https://github.com/user-attachments/assets/0683d940-98a0-4cdc-a79d-05fd6e3b8f34)
 
 
 Preview at [Vercel](https://next-clock-6v6f3mvzl-seyhmus1s-projects.vercel.app/)
